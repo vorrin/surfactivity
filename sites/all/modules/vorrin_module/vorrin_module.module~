@@ -1,0 +1,38 @@
+<?php
+/**
+* Implements hook_commerce_line_item_summary_link_info().
+*/
+global $theme_path_real;
+$theme_path_real=path_to_theme();
+function vorrin_module_commerce_line_item_summary_link_info_alter(&$variables) {
+  $variables['view_cart']['title']='view cart()';
+  //$variables['view_cart']['html']=true;
+  //$variables['checkout']['title']=t('checkout').' <img src="'.base_path().$theme_path_real.'/img/checkout.png" border="0" style="float:right"/>';
+  //$variables['checkout']['html']=true;  
+  //$variables['checkout']['attributes']['style']='text-transform:uppercase;'; 
+}
+
+
+//function vorrin_module_theme() {
+  //$themes['commerce_line_item_summary'] = array(
+    //'render element' => 'commerce-line-item-summary',
+    //'template' => 'templates/commerce-line-item-summary',
+  //);
+
+  //$themes['views_view__commerce_cart_block'] = array(
+    //'template'  => 'templates/views-view--commerce-cart-block',
+    //'original hook' => 'views_view',
+    //'preprocess functions' => array(
+      //'template_preprocess',
+      //'template_preprocess_views_view',
+    //),
+    //'arguments' => array('view' => NULL),
+  //);
+
+  //return $themes;
+}
+
+
+
+?>
+

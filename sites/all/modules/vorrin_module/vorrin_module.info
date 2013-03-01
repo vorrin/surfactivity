@@ -1,0 +1,8 @@
+name = "Vorrin module"
+description = "Vorrin's generic module, to make hooks!"
+
+
+; Information added by drupal.org packaging script on 2011-03-27
+version = "7.x-1.8"
+core = "7.x"
+project = "surfactivity"
