@@ -3049,7 +3049,11 @@ html.js #commerce-backoffice-message-form fieldset .fieldset-legend {
 /* 
  * SHOPPING CART BLOCK
  */
- 
+
+#block-views-test-cart-view-block .view-empty {
+  display: none;
+}
+
 #block-views-test-cart-view-block {
   margin-bottom: -25px;
 }
@@ -3057,7 +3061,6 @@ html.js #commerce-backoffice-message-form fieldset .fieldset-legend {
 #block-views-test-cart-view-block ul, #block-views-test-cart-view-block li{
   padding: 0;
   margin: 0;
-  display: inline;
 
 }
 
@@ -3081,6 +3084,23 @@ html.js #commerce-backoffice-message-form fieldset .fieldset-legend {
  * FOOTER MENU
  */
 
+#region-footer-first{
+  border-right: 1px solid rgb(230,230,230);
+  width: 659px;
+}
+
+#zone-footer-wrapper {
+
+  padding-top: 15px;
+  padding-bottom: 0px;
+  margin-bottom: 17px;
+  
+}
+#zone-footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: rgb(243,243,243);
+}
 
 .footer-menu {
   width: 100%;
@@ -3093,8 +3113,8 @@ html.js #commerce-backoffice-message-form fieldset .fieldset-legend {
   font: 20px Impact, Impact5, Charcoal6, sans-serif;
   margin: 0 auto 0 auto;
   display: inline-block;
-  margin-right: 40px;
-  margin-left: 30px;
+  margin-right: 60px;
+  margin-left: 20px;
  
 }
 .footer-menu-item a{
@@ -3102,8 +3122,68 @@ html.js #commerce-backoffice-message-form fieldset .fieldset-legend {
   color:black;
 }
 
-.footer-menu-item a:hover{
-
+.footer-menu-item a:hover {
   color:yellow;
 }
 
+
+/* Footer menu submenu */
+#footer-submenu-list {
+  display: block;
+  list-style: none;
+  margin-left: 268px;
+  margin-top: 7px;
+}
+
+#footer-submenu-list li a{
+  text-decoration: none;
+  color: black;
+}
+#footer-submenu-list li a:hover {
+  color: yellow;
+}
+
+
+/* social networks footer */
+#block-menu-menu-social-connection {
+
+  padding-left: 30px;
+}
+#block-menu-menu-social-connection h2{
+  padding-left:0;
+  padding-top: 0;
+  font: 20px Impact, Impact5, Charcoal6, sans-serif;
+
+}
+
+#block-menu-menu-social-connection .menu li{
+  text-indent: -9999em;
+  display: inline-block;
+  width: 35px;
+  padding: 0;
+  margin: 0;
+
+}
+
+
+/* footer 2 */
+#zone-footer2-wrapper{
+  background: none;
+  height:50px;
+  margin: 0;
+  padding: 0;
+  min-height: 50px;
+  margin-top: -18px;
+}
+
+#zone-footer2 {
+  height: 50px;
+  background: yellow;
+}
+
+
+/* guest house */
+
+#breadcrumb , .context-guest-house #page-title{
+  display: none;
+}

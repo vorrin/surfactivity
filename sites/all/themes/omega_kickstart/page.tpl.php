@@ -28,6 +28,12 @@
   <?php if (isset($page['content'])) : ?>
     <?php print render($page['content']); ?>
   <?php endif; ?>  
+
+  <div id='guest-house-container'>
+      <div id='left'></div>
+      <div id='center'></div>
+      <div id='right'></div>
+  </div>
   
   <?php if (isset($page['footer'])) : ?>
     <?php print render($page['footer']); ?>

@@ -22,6 +22,16 @@
  */
 ?>
 <div class="line-item-summary">
-<?php print str_replace("()",'('.$quantity_raw.')',$links);  ?> 
-  <?php  //print $links; ?>
+  <?php if ($quantity_raw): ?>
+    <?php// print $cart_items; ?>
+    <?php print str_replace("()",'('.$quantity_raw.')',$links);  ?> 
+  <?php else: ?>
+    <?php print str_replace("()",'(0)',$links);  ?> 
+  <?php endif; ?>
+<!-- <?php if ($total): ?>
+  <div class="line-item-total">
+    <span class="line-item-total-raw"><?php print $total; ?></span>
+  </div>
+  <?php endif; ?>
+  <?php  //print $links; ?> -->
 </div>
