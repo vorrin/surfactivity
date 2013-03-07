@@ -3154,7 +3154,7 @@ html.js #commerce-backoffice-message-form fieldset .fieldset-legend {
   padding-top: 0;
   font: 20px Impact, Impact5, Charcoal6, sans-serif;
 
-}
+}G
 
 #block-menu-menu-social-connection .menu li{
   text-indent: -9999em;
@@ -3180,6 +3180,12 @@ html.js #commerce-backoffice-message-form fieldset .fieldset-legend {
   height: 50px;
   background: yellow;
 }
+#zone-footer2 span{
+  text-align: center;
+  display: block;
+  margin-top: 15px;
+
+}
 
 
 /* guest house */
@@ -3187,3 +3193,51 @@ html.js #commerce-backoffice-message-form fieldset .fieldset-legend {
 #breadcrumb , .context-guest-house #page-title{
   display: none;
 }
+
+
+/* Product display list (/*/
+
+
+/* product bollino */
+
+.view-shop-window  .field-type-commerce-price {
+font: 16px Impact, Impact5, Charcoal6, sans-serif;
+position: absolute;
+width: 55px;
+height: 34px;
+top: 259px;
+right: 0px;
+background: url('../images/price_background.png');
+text-align: center;
+
+   
+}
+
+
+.view-shop-window  .field-type-commerce-price .field-items {
+  margin-top: 6px;
+  color: yellow;
+}
+
+/* title */
+.view-shop-window h2.field-name-title-field {
+  font: 20px helvetica black;
+  color: black;
+  margin-top: 5px;
+    
+}
+
+.view-shop-window h2.field-name-title-field a {
+  text-decoration: none;
+  color: black;
+}
+
+.view-shop-window .field-name-field-short-description {
+  
+  position: relative;
+  bottom: 15px;
+  width: 158px;
+  
+  font: 11px helvetica black;
+}
+
