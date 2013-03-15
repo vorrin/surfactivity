@@ -3154,7 +3154,7 @@ html.js #commerce-backoffice-message-form fieldset .fieldset-legend {
   padding-top: 0;
   font: 20px Impact, Impact5, Charcoal6, sans-serif;
 
-}G
+}
 
 #block-menu-menu-social-connection .menu li{
   text-indent: -9999em;
@@ -3194,6 +3194,107 @@ html.js #commerce-backoffice-message-form fieldset .fieldset-legend {
   display: none;
 }
 
+#guest-house-container {
+  border-top: 1px solid black;
+  width: 940px;
+  height: 600px;
+  position: relative;
+  text-align: justify;
+}
+#guest-house-container h1 {
+  font: 18pt Impact, sans-serif;
+}
+
+#guest-house-container p {
+  font: 12pt Helvetica, sans-serif;
+}
+
+#guest-house-container #left,
+#guest-house-container #right,
+#guest-house-container #center {
+  width: 280px;
+  height: 550px;
+  margin: 30px 0 30px 0; 
+  display: inline-block;
+  float: left;
+}
+
+#node-page-39 {
+  margin: 0;
+}
+#guest-house-container #center {
+  margin: 30px 50px 50px 50px;
+  background: url('../images/guest_center.png');
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+#guest-house-container #right{
+  background: url('../images/guest_right.png');
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+#guest-house-container #left{
+  background: url('../images/guest_left.png');
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+#button-container {
+  position: relative;
+}
+
+#button-container #button-left,
+#button-container #button-right {
+  display: inline-block;
+  position: absolute;
+  background: yellow;
+  width: 185px ;
+  height: 27px; 
+  float: left;
+  top: 10px;
+  text-align: center;
+  padding-top: 7px;
+  border-radius: 7px;
+}
+#button-container #button-left{
+  right: 200px;
+}
+#button-container #button-right{
+  left: 200px;
+}
+
+#button-container a{
+  text-indent: 10px;
+  text-decoration: none;
+  color: black;
+  font: 13.82pt impact, sans-serif; 
+}
+
+#info-contact-span {
+  display: block;
+  margin: 66px auto 0px auto;
+  width: 300px;
+  font: 12pt Helvetica;
+  color: gray;
+}
+
+/* About page */
+
+
+
+#about-page-container {
+  border-top: 1px solid black;  
+  font : 16px Helvetica, sans-serif;
+  color: gray;
+  padding: 50px 30px 0 30px;
+  text-align: justify;
+}
+#about-page-container h1 {
+  font : 26px Impact , sans-serif;
+  color:  black;
+}
 
 /* Product display list (/*/
 

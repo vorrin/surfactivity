@@ -5,8 +5,7 @@
 global $theme_path_real;
 $theme_path_real=path_to_theme();
 function vorrin_module_commerce_line_item_summary_link_info_alter(&$variables) {
-    ddebug_backtrace()
-    
+    ddebug_backtrace();   
     $variables['view_cart']['title']='view cart()';
   //$variables['view_cart']['html']=true;
   //$variables['checkout']['title']=t('checkout').' <img src="'.base_path().$theme_path_real.'/img/checkout.png" border="0" style="float:right"/>';
