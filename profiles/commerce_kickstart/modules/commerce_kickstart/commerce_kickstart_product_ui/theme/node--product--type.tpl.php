@@ -31,4 +31,5 @@
     print render($content['comments']);
     ?>
   </div>
+
 </article>
