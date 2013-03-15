@@ -1,0 +1,111 @@
+.gridregion {
+  padding: 0;
+}
+
+.gridregion-inside {
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+}
+
+.gridregion-inside-first {
+  padding-left: 0;
+}
+
+.gridregion-inside-last {
+  padding-right: 0;
+}
+
+.gridcolumn {
+  padding: 0;
+}
+
+.gridcolumn-inside {
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+}
+
+.gridcolumn-inside-first {
+  padding-left: 0;
+}
+
+.gridcolumn-inside-last {
+  padding-right: 0;
+}
+
+.gridrow {
+  padding: 0 0 0.5em 0;
+  margin: 0;
+}
+
+.gridrow-last {
+  padding-bottom: 0;
+}
+
+.gridcolumn-grid-1 {
+  float: left;
+  width: 33.0512%;
+}
+
+.gridcolumn-grid-main {
+  float: left;
+  width: 33.0283%;
+}
+
+.gridcolumn-grid-2 {
+  float: left;
+  width: 32.9205%;
+}
+
+.grid-inside {
+  padding-right: 0px;
+}
+
+.grid {
+  width: 940px;
+}
+
+.gridregion-grid-left_up {
+  float: left;
+  width: 99.0000%;
+}
+
+.gridrow-grid-4-inside {
+  padding-right: 0px;
+}
+
+.gridregion-grid-left_down {
+  float: left;
+  width: 99.0000%;
+}
+
+.gridrow-grid-3-inside {
+  padding-right: 0px;
+}
+
+.gridregion-grid-center {
+  float: left;
+  width: 99.0000%;
+}
+
+.gridrow-grid-main-row-inside {
+  padding-right: 0px;
+}
+
+.gridregion-grid-right_up {
+  float: left;
+  width: 99.0000%;
+}
+
+.gridrow-grid-6-inside {
+  padding-right: 0px;
+}
+
+.gridregion-grid-right_down {
+  float: left;
+  width: 99.0000%;
+}
+
+.gridrow-grid-5-inside {
+  padding-right: 0px;
+}
+
