@@ -9,6 +9,7 @@
 
 <?php if ($teaser): ?>
 
+  <div class="container-24 grid-8 prefix-1">
     <div<?php print $content_attributes; ?>>
       <?php
         // We hide the comments and links now so that we can render them later.
@@ -17,6 +18,7 @@
         print render($content);
       ?>
     </div>
+  </div>
 
 
 <?php else: ?>

@@ -3296,7 +3296,6 @@ html.js #commerce-backoffice-message-form fieldset .fieldset-legend {
   color:  black;
 }
 
-/* Product display list (/*/
 
 
 /* product bollino */
@@ -3306,39 +3305,99 @@ font: 16px Impact, Impact5, Charcoal6, sans-serif;
 position: absolute;
 width: 55px;
 height: 34px;
-top: 259px;
-right: 0px;
+bottom: -16px;
+right: -20px;
 background: url('../images/price_background.png');
+background-repeat: no-repeat;
 text-align: center;
+padding: 0;
+margin: 0;
 
    
 }
 
+.view-shop-window {
+
+  border-top: 1px solid black;
+  padding-top: 20px;
+  font: 10px Helvetica;
+  color: gray;
+
+}
+
+.page-shop-window #zone-content {
+  margin-bottom: 0;
+
+}
+.page-shop-window #block-superfish-3 {
+position: absolute;
+height: 38px;
+top: 5px;
+color: black;
+}
+
+.page-shop-window #block-superfish-3 li a {
+  font: 12pt Impact, sans-serif;
+  color: black;
+}
+
+.page-shop-window #block-superfish-3 li a:hover {
+  color: yellow;
+}
+.view-shop-window  header {
+  display: none;
+}
 
 .view-shop-window  .field-type-commerce-price .field-items {
-  margin-top: 6px;
+  padding-top: 6px;
   color: yellow;
 }
 
-/* title */
-.view-shop-window h2.field-name-title-field {
-  font: 20px helvetica black;
-  color: black;
-  margin-top: 5px;
-    
-}
 
-.view-shop-window h2.field-name-title-field a {
-  text-decoration: none;
-  color: black;
-}
-
+/* short description */
 .view-shop-window .field-name-field-short-description {
-  
+  font: 10px helvetica;
+}
+
+/* title */
+.view-shop-window .field-name-title-field {
+  font: 12px bold Helvetica;
+}
+.view-shop-window a {
+  text-decoration: none;
+  color: gray;
+}
+
+.view-shop-window  .field-field-product-picture {
+  width: 200px;
+}
+
+/* Product display list (/*/
+.view-shop-window ol li {
+  display: inline-block;
+  margin-right: 32px;
+  margin-bottom: 63px;
+  width: 200px;
+}
+
+.view-shop-window ol {
+  margin-bottom: 0;
+}
+
+.view-shop-window ol li div{
+  margin: 0;
+  padding: 0;
+}
+
+/*pager*/
+
+.view-shop-window .pager {
+  color: black;
+  font: 12pt Impact, sans-serif;
   position: relative;
-  bottom: 15px;
-  width: 158px;
-  
-  font: 11px helvetica black;
+  top: -18px;
+  text-align: right;
+}
+.view-shop-window .pager ul{
 }
 
