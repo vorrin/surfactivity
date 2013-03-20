@@ -1067,6 +1067,8 @@ select {
       background-image: url("../images/icon_twitter.png"); }
     #block-menu-menu-social-connection .content ul.menu li a.pinterest {
       background-image: url("../images/icon_pinterest.png"); }
+    #block-menu-menu-social-connection .content ul.menu li a.instagram {
+      background-image: url("../images/icon_instagram.png"); }
 
 /**********************************************
 * 4.2. Zone footer2
@@ -2929,6 +2931,10 @@ html.js #commerce-backoffice-message-form fieldset .fieldset-legend {
 /* Horizontal Menu */
 /* ul wrapper for whole menu*/
 
+.block-superfish .active {
+  color: rgb(255,213,17);
+}
+
 #block-superfish-1 {
   text-align: center;
 }
@@ -2946,7 +2952,7 @@ html.js #commerce-backoffice-message-form fieldset .fieldset-legend {
 }
 
 .surfactivity-menu-main a:hover {
-  color: yellow;
+  color: rgb(255,213,17);
 }
 /* Spawning menu
  *
@@ -3055,7 +3061,7 @@ html.js #commerce-backoffice-message-form fieldset .fieldset-legend {
 }
 
 #block-views-test-cart-view-block {
-  margin-bottom: -25px;
+  margin-bottom: -40px;
 }
 
 #block-views-test-cart-view-block ul, #block-views-test-cart-view-block li{
@@ -3123,7 +3129,7 @@ html.js #commerce-backoffice-message-form fieldset .fieldset-legend {
 }
 
 .footer-menu-item a:hover {
-  color:yellow;
+  color:rgb(255,213,17);
 }
 
 
@@ -3140,7 +3146,7 @@ html.js #commerce-backoffice-message-form fieldset .fieldset-legend {
   color: black;
 }
 #footer-submenu-list li a:hover {
-  color: yellow;
+  color: rgb(255,213,17);
 }
 
 
@@ -3159,10 +3165,14 @@ html.js #commerce-backoffice-message-form fieldset .fieldset-legend {
 #block-menu-menu-social-connection .menu li{
   text-indent: -9999em;
   display: inline-block;
-  width: 35px;
+  width: 40px;
   padding: 0;
   margin: 0;
 
+}
+
+#block-menu-menu-social-connection {
+  margin-left: 33px;
 }
 
 
@@ -3178,7 +3188,7 @@ html.js #commerce-backoffice-message-form fieldset .fieldset-legend {
 
 #zone-footer2 {
   height: 50px;
-  background: yellow;
+  background: rgb(255,213,17);
 }
 #zone-footer2 span{
   text-align: center;
@@ -3186,7 +3196,9 @@ html.js #commerce-backoffice-message-form fieldset .fieldset-legend {
   margin-top: 15px;
 
 }
-
+.overlay .zone-footer2 {
+  display: none;
+}
 
 /* guest house */
 
@@ -3206,14 +3218,15 @@ html.js #commerce-backoffice-message-form fieldset .fieldset-legend {
 }
 
 #guest-house-container p {
-  font: 12pt Helvetica, sans-serif;
+  font: 12pt helvetica , arial, sans-serif;
+  color: gray;
 }
 
 #guest-house-container #left,
 #guest-house-container #right,
 #guest-house-container #center {
   width: 280px;
-  height: 550px;
+  height: 620px;
   margin: 30px 0 30px 0; 
   display: inline-block;
   float: left;
@@ -3249,7 +3262,7 @@ html.js #commerce-backoffice-message-form fieldset .fieldset-legend {
 #button-container #button-right {
   display: inline-block;
   position: absolute;
-  background: yellow;
+  background: rgb(255,213,17);
   width: 185px ;
   height: 27px; 
   float: left;
@@ -3276,7 +3289,7 @@ html.js #commerce-backoffice-message-form fieldset .fieldset-legend {
   display: block;
   margin: 66px auto 0px auto;
   width: 300px;
-  font: 12pt Helvetica;
+  font: 12pt helvetica , arial;
   color: gray;
 }
 
@@ -3286,7 +3299,7 @@ html.js #commerce-backoffice-message-form fieldset .fieldset-legend {
 
 #about-page-container {
   border-top: 1px solid black;  
-  font : 16px Helvetica, sans-serif;
+  font : 16px helvetica , arial, sans-serif;
   color: gray;
   padding: 50px 30px 0 30px;
   text-align: justify;
@@ -3320,7 +3333,7 @@ margin: 0;
 
   border-top: 1px solid black;
   padding-top: 20px;
-  font: 10px Helvetica;
+  font: 10px helvetica , arial;
   color: gray;
 
 }
@@ -3342,7 +3355,7 @@ color: black;
 }
 
 .page-shop-window #block-superfish-3 li a:hover {
-  color: yellow;
+  color: rgb(255,213,17);
 }
 .view-shop-window  header {
   display: none;
@@ -3350,18 +3363,18 @@ color: black;
 
 .view-shop-window  .field-type-commerce-price .field-items {
   padding-top: 6px;
-  color: yellow;
+  color: rgb(255,213,17);
 }
 
 
 /* short description */
 .view-shop-window .field-name-field-short-description {
-  font: 10px helvetica;
+  font: 10px helvetica , arial;
 }
 
 /* title */
 .view-shop-window .field-name-title-field {
-  font: 12px bold Helvetica;
+  font: 12px bold helvetica , arial;
 }
 .view-shop-window a {
   text-decoration: none;
@@ -3378,6 +3391,10 @@ color: black;
   margin-right: 32px;
   margin-bottom: 63px;
   width: 200px;
+}
+
+.view-shop-window ol {
+  margin-bottom: 0;
 }
 
 .view-shop-window ol li div{

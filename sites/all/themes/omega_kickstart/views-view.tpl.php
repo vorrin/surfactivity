@@ -28,7 +28,7 @@
 ?>
 <div class="<?php print $classes; 
 
-dpm( get_defined_vars() );
+//dpm( get_defined_vars() );
 
 ?>">
 

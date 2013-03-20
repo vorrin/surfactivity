@@ -33,10 +33,6 @@ dpm( get_defined_vars() );
 ?>">
 
 
-<?php if ($name == "shop_window"): 
-    print 'LALALALALAL';
-    endif;
-?>
 
 
   <?php print render($title_prefix); ?>
@@ -62,6 +58,9 @@ dpm( get_defined_vars() );
     </div>
   <?php endif; ?>
 
+<?php if ($name == "shop_window"): 
+    endif;
+?>
   <?php if ($pager): ?>
     <?php print $pager; ?>
   <?php endif; ?>
