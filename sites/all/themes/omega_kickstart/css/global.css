@@ -3414,3 +3414,57 @@ color: black;
 .view-shop-window .pager ul{
 }
 
+
+/***** SINGLE ITEM *****/
+.node-type-t-shirts .node-product-type {
+  border-top: 1px solid black;
+  position: relative;
+}
+.node-type-t-shirts .node-product-type .container-24 {
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.node-type-t-shirts .node-product-type #product-picture {
+  float: left;
+}
+
+.node-type-t-shirts .node-product-type #product-data {
+  float: right;
+  width: 290px;
+  font: 10pt Helvetica, Arial;
+  color: gray; 
+}
+
+.node-type-t-shirts .node-product-type #product-data h2 { 
+  font: 14pt Impact;
+  color: black;
+}
+
+.node-type-t-shirts .node-product-type #product-data .field-type-commerce-price {
+  font: 14pt impact ;
+  color: black;
+}
+
+.node-type-t-shirts .node-product-type #product-data .form-radios .form-item-attributes-field-size  {
+  display: inline-block; 
+}
+
+.node-type-t-shirts .node-product-type #product-data .form-radios label:after {
+  content: "";
+}
+.node-type-t-shirts .node-product-type #product-data .form-item-quantity {
+  display: none;
+}
+.node-type-t-shirts .node-product-type #product-data .form-submit {
+  font: 12pt Impact;
+  text-align: center;
+  color: black;
+  background: yellow;
+  border-radius: 12px;
+  text-transform: uppercase;
+  text-indent: 40px;
+ 
+ }

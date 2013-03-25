@@ -9,7 +9,6 @@
 
 <?php if ($teaser): ?>
 
-  <div class="container-24 grid-8 prefix-1">
     <div<?php print $content_attributes; ?>>
       <?php
         // We hide the comments and links now so that we can render them later.
@@ -18,7 +17,6 @@
         print render($content);
       ?>
     </div>
-  </div>
 
 
 <?php else: ?>
@@ -42,6 +40,8 @@
         // We hide the comments and links now so that we can render them later.
         hide($content['comments']);
         hide($content['links']);
+        dpm($content);
+        print '<div id="content1">'. render($content['product:field_product_picture'][0]) . '</div> ';
         print render($content);
       ?>
     </div>
