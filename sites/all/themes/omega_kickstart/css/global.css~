@@ -2959,11 +2959,17 @@ html.js #commerce-backoffice-message-form fieldset .fieldset-legend {
  * This bit controls where the slide in meny appears
  * */
 .surfactivity-menu-main ul {
-  margin-left: 100px !important;
+  top: 24px ;
+  margin-left: -29px !important;
+  width: 490px !important;
+}
+
+.surfactivity-menu-main ul a{
+  font: 17px Impact, Impact5, Charcoal6, sans-serif;
 }
 
 .surfactivity-menu-main li {
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 .surfactivity-menu-main .sf-no-children {
@@ -3337,11 +3343,16 @@ margin: 0;
   color: gray;
 
 }
+.view-shop-window article
+{
+}
 
 .page-shop-window #zone-content {
   margin-bottom: 0;
 
 }
+
+/****** MINI MENU TOPLEFT ******/
 .page-shop-window #block-superfish-3 {
 position: absolute;
 height: 38px;
@@ -3350,11 +3361,13 @@ color: black;
 }
 
 .page-shop-window #block-superfish-3 li a {
+
   font: 12pt Impact, sans-serif;
   color: black;
+  margin-right: 10px;
 }
 
-.page-shop-window #block-superfish-3 li a:hover {
+.page-shop-window #block-superfish-3 li a:hover, .page-shop-window #block-superfish-3 li a.active  {
   color: rgb(255,213,17);
 }
 .view-shop-window  header {
@@ -3445,7 +3458,7 @@ color: black;
 
 .node-type-t-shirts .node-product-type #product-data .field-type-commerce-price {
   font: 14pt impact ;
-  color; black;
+  color: black;
 }
 
 .node-type-t-shirts .node-product-type #product-data .form-radios .form-item-attributes-field-size  {

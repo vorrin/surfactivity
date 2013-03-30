@@ -7,19 +7,8 @@
 
 
 
+<div<?php dpm($page); print $attributes; ?>>
 
-
-<!--
-
-<div id='headercontainer'> 
-<div id='left'></div>
-<div id='right'></div>
-<div id='center'> SURFACTIVITY </div>
-
-</div>
--->
-
-<div<?php print $attributes; ?>>
   <?php if (isset($page['header'])) : ?>
 
     <?php print render($page['header']); ?>

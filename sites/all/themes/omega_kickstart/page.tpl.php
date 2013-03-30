@@ -6,7 +6,9 @@
 ?>
 
 
-<div<?php print $attributes; ?>>
+
+<div<?php  ;print $attributes; ?>>
+
   <?php if (isset($page['header'])) : ?>
 
     <?php print render($page['header']); ?>

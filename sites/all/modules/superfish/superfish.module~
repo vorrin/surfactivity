@@ -853,6 +853,7 @@ function theme_superfish_build($variables) {
   $id = $variables['id'];
   $menu = $variables['menu'];
   $depth = $variables['depth'];
+    dpm($variables);
   $trail = $variables['trail'];
   // Keep $sfsettings untouched as we need to pass it to the child menus.
   $settings = $sfsettings = $variables['sfsettings'];
