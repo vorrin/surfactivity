@@ -41,8 +41,8 @@
         hide($content['comments']);
         hide($content['links']);
         dpm($content);
-        print '<div id="content1">'. render($content['product:field_product_picture'][0]) . '</div> ';
-        print render($content);
+        print '<div id="product-picture">'. render($content['product:field_product_picture']) . '</div> ';
+        print '<div id="product-data">' . render($content) . '</div>' ; 
       ?>
     </div>
   </div>

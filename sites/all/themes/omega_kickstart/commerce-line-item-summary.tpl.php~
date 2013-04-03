@@ -20,6 +20,10 @@
  * @see template_preprocess()
  * @see template_process()
  */
+
+
+dpm( get_defined_vars() );
+dpm( debug_backtrace() );
 ?>
 <div class="line-item-summary">
   <?php if ($quantity_raw): ?>
@@ -30,7 +34,7 @@
   <?php endif; ?>
 <!-- <?php if ($total): ?>
   <div class="line-item-total">
-    <span class="line-item-total-raw"><?php print 'a' ;?></span>
+    <span class="line-item-total-raw"><?php print $total; ?></span>
   </div>
   <?php endif; ?>
   <?php  //print $links; ?> -->

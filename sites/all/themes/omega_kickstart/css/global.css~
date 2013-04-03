@@ -2931,8 +2931,12 @@ html.js #commerce-backoffice-message-form fieldset .fieldset-legend {
 /* Horizontal Menu */
 /* ul wrapper for whole menu*/
 
-.block-superfish .active {
+.block-superfish-1 .active {
   color: rgb(255,213,17);
+background: 100px black;
+padding: 2px 10px;
+position: relative;
+top: -2px;
 }
 
 #block-superfish-1 {
@@ -3068,6 +3072,7 @@ html.js #commerce-backoffice-message-form fieldset .fieldset-legend {
 
 #block-views-test-cart-view-block {
   margin-bottom: -40px;
+  text-transform: capitalize;
 }
 
 #block-views-test-cart-view-block ul, #block-views-test-cart-view-block li{
@@ -3091,6 +3096,8 @@ html.js #commerce-backoffice-message-form fieldset .fieldset-legend {
 #block-views-test-cart-view-block  .contextual-links {
   display: none;
 }
+
+
 
 /* 
  * FOOTER MENU
@@ -3324,15 +3331,13 @@ font: 16px Impact, Impact5, Charcoal6, sans-serif;
 position: absolute;
 width: 55px;
 height: 34px;
-bottom: -16px;
-right: -20px;
+bottom: -1px;
+right: 1px;
 background: url('../images/price_background.png');
 background-repeat: no-repeat;
 text-align: center;
 padding: 0;
 margin: 0;
-
-   
 }
 
 .view-shop-window {
@@ -3345,6 +3350,7 @@ margin: 0;
 }
 .view-shop-window article
 {
+  position: relative;
 }
 
 .page-shop-window #zone-content {
@@ -3367,8 +3373,13 @@ color: black;
   margin-right: 10px;
 }
 
-.page-shop-window #block-superfish-3 li a:hover, .page-shop-window #block-superfish-3 li a.active  {
+.page-shop-window #block-superfish-3 li a:hover {
   color: rgb(255,213,17);
+}
+
+.page-shop-window #block-superfish-3 li a.active  {
+  color: rgb(255,213,17);
+  
 }
 .view-shop-window  header {
   display: none;
@@ -3433,6 +3444,21 @@ color: black;
   border-top: 1px solid black;
   position: relative;
 }
+
+.node-type-t-shirts .node-product-type .field-name-title-field {
+font: 20pt Impact;
+color: black;
+text-transform: uppercase;
+margin-bottom: 17px;
+}
+.node-type-t-shirts .node-product-type .field-field-gender {
+font: 15pt Impact;
+color: black;
+text-transform: uppercase;
+margin-bottom: 17px;
+}
+
+
 .node-type-t-shirts .node-product-type .container-24 {
   margin: 0;
   padding: 0;
@@ -3475,9 +3501,19 @@ color: black;
   font: 12pt Impact;
   text-align: center;
   color: black;
-  background: yellow;
+  background: rgb(255,213,17);
   border-radius: 12px;
   text-transform: uppercase;
   text-indent: 40px;
  
  }
+
+
+/* #Mainpage Grid */
+
+
+.block-panels-mini-grid .field-name-field-popup-text {
+  font: 13pt Impact;
+  margin-top: 8px !important;
+  text-indent: 9px;
+}

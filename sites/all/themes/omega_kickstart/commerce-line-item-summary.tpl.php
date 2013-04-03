@@ -20,6 +20,10 @@
  * @see template_preprocess()
  * @see template_process()
  */
+
+
+//dpm( get_defined_vars() );
+//dpm( debug_backtrace() );
 ?>
 <div class="line-item-summary">
   <?php if ($quantity_raw): ?>

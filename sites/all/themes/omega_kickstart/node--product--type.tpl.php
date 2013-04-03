@@ -40,7 +40,6 @@
         // We hide the comments and links now so that we can render them later.
         hide($content['comments']);
         hide($content['links']);
-        dpm($content);
         print '<div id="product-picture">'. render($content['product:field_product_picture']) . '</div> ';
         print '<div id="product-data">' . render($content) . '</div>' ; 
       ?>
