@@ -27,7 +27,6 @@
 ?>
 <div class="line-item-summary">
   <?php if ($quantity_raw): ?>
-    <?php// print $cart_items; ?>
     <?php print str_replace("()",'('.$quantity_raw.')',$links);  ?> 
   <?php else: ?>
     <?php print str_replace("()",'(0)',$links);  ?> 

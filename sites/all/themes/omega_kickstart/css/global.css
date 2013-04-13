@@ -1666,7 +1666,7 @@ div.messages.commerce-add-to-cart-confirmation {
       margin: 0;
       padding-bottom: 1em; }
     .node-product-type .field-type-commerce-product-reference form.commerce-add-to-cart .form-submit {
-      background-color: #2698F2;
+      background-color: rgb(255,213,17);
       background-image: url("../images/bg_add_to_cart.png");
       background-position: 90% 50%;
       /* LTR */
@@ -1877,7 +1877,7 @@ ol.inline.commerce-checkout-progress {
   .page-checkout #commerce-checkout-form-checkout .checkout-buttons input#edit-continue,
   .page-checkout #commerce-checkout-form-shipping .checkout-buttons input#edit-continue,
   .page-checkout #commerce-checkout-form-review .checkout-buttons input#edit-continue {
-    background: #2698F2 none 0 0 no-repeat;
+    background: rgb(255,213,17) none 0 0 no-repeat;
     border: 0;
     -moz-border-radius: 8px;
     -webkit-border-radius: 8px;
@@ -1977,7 +1977,7 @@ ol.inline.commerce-checkout-progress {
     /* LTR */
     padding: 0 0 1px 0; }
   .page-cart #views-form-commerce-cart-form-default .commerce-line-item-actions input#edit-checkout {
-    background: #2698F2 none 0 0 no-repeat;
+    background: rgb(255,213,17) none 0 0 no-repeat;
     border: 0;
     -moz-border-radius: 8px;
     -webkit-border-radius: 8px;
@@ -2844,7 +2844,7 @@ html.js #commerce-backoffice-message-form fieldset .fieldset-legend {
   padding: 0 0 0 30px; }
 
 #commerce-backoffice-message-form .fieldset-legend a {
-  color: #2698F2;
+  color: rgb(255,213,17);
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   text-decoration: none;
@@ -2937,6 +2937,17 @@ background: 100px black;
 padding: 2px 10px;
 position: relative;
 top: -2px;
+}
+
+.surfactivity-menu-main li.sf-item-3 a {
+  background: none ;
+}
+
+.surfactivity-menu-main li.sf-item-3 .active.sf-depth-1 {
+  color: black;
+  padding: 0;
+  top: 0;
+
 }
 
 #block-superfish-1 {
@@ -3105,7 +3116,7 @@ top: -2px;
 
 #region-footer-first{
   border-right: 1px solid rgb(230,230,230);
-  width: 659px;
+  width: 655px;
 }
 
 #zone-footer-wrapper {
@@ -3519,4 +3530,13 @@ margin-bottom: 17px;
   font: 13pt Impact;
   margin-top: 8px !important;
   text-indent: 9px;
+}
+
+
+/****rifinitura cart ****/
+#edit-back, #edit-cancel {
+  border-bottom: none !important;
+}
+div.button.checkout {
+  background-color: rgb(255,213,17) !important;
 }
